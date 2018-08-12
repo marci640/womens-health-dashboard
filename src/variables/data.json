@@ -1,0 +1,410 @@
+[
+  {
+    "state": "AL",
+    "name": "Alabama",
+    "abortion_clinics": 6,
+    "crisis_pregnancy_centers": 72,
+    "waiting_period": "Yes",
+    "high_risk": "Yes"
+  },
+  {
+    "state": "AK",
+    "name": "Alaska",
+    "abortion_clinics": 8,
+    "crisis_pregnancy_centers": 14,
+    "waiting_period": "No",
+    "high_risk": "No"
+  },
+  {
+    "state": "AZ",
+    "name": "Arizona",
+    "abortion_clinics": 7,
+    "crisis_pregnancy_centers": 80,
+    "waiting_period": "Yes",
+    "high_risk": "Yes"
+  },
+  {
+    "state": "AR",
+    "name": "Arkansas",
+    "abortion_clinics": 3,
+    "crisis_pregnancy_centers": 59,
+    "waiting_period": "No",
+    "high_risk": "Yes"
+  },
+  {
+    "state": "CA",
+    "name": "California",
+    "abortion_clinics": 123,
+    "crisis_pregnancy_centers": 344,
+    "waiting_period": "No",
+    "high_risk": "No"
+  },
+  {
+    "state": "CO",
+    "name": "Colorado",
+    "abortion_clinics": 15,
+    "crisis_pregnancy_centers": 95,
+    "waiting_period": "No",
+    "high_risk": "No"
+  },
+  {
+    "state": "CT",
+    "name": "Connecticut",
+    "abortion_clinics": 18,
+    "crisis_pregnancy_centers": 48,
+    "waiting_period": "No",
+    "high_risk": "No"
+  },
+  {
+    "state": "DE",
+    "name": "Delaware",
+    "abortion_clinics": 2,
+    "crisis_pregnancy_centers": 12,
+    "waiting_period": "No",
+    "high_risk": "No"
+  },
+  {
+    "state": "DC",
+    "name": "District of Columbia",
+    "abortion_clinics": 2,
+    "crisis_pregnancy_centers": 6,
+    "waiting_period": "No",
+    "high_risk": "Yes"
+  },
+  {
+    "state": "FL",
+    "name": "Florida",
+    "abortion_clinics": 48,
+    "crisis_pregnancy_centers": 285,
+    "waiting_period": "Yes",
+    "high_risk": "No"
+  },
+  {
+    "state": "GA",
+    "name": "Georgia",
+    "abortion_clinics": 10,
+    "crisis_pregnancy_centers": 121,
+    "waiting_period": "No",
+    "high_risk": "Yes"
+  },
+  {
+    "state": "HI",
+    "name": "Hawaii",
+    "abortion_clinics": 2,
+    "crisis_pregnancy_centers": 15,
+    "waiting_period": "No",
+    "high_risk": "Yes"
+  },
+  {
+    "state": "ID",
+    "name": "Idaho",
+    "abortion_clinics": 3,
+    "crisis_pregnancy_centers": 27,
+    "waiting_period": "No",
+    "high_risk": "Yes"
+  },
+  {
+    "state": "IL",
+    "name": "Illinois",
+    "abortion_clinics": 25,
+    "crisis_pregnancy_centers": 164,
+    "waiting_period": "No",
+    "high_risk": "Yes"
+  },
+  {
+    "state": "IN",
+    "name": "Indiana",
+    "abortion_clinics": 6,
+    "crisis_pregnancy_centers": 129,
+    "waiting_period": "No",
+    "high_risk": "Yes"
+  },
+  {
+    "state": "IA",
+    "name": "Iowa",
+    "abortion_clinics": 6,
+    "crisis_pregnancy_centers": 67,
+    "waiting_period": "No",
+    "high_risk": "No"
+  },
+  {
+    "state": "KS",
+    "name": "Kansas",
+    "abortion_clinics": 4,
+    "crisis_pregnancy_centers": 53,
+    "waiting_period": "Yes",
+    "high_risk": "Yes"
+  },
+  {
+    "state": "KY",
+    "name": "Kentucky",
+    "abortion_clinics": 1,
+    "crisis_pregnancy_centers": 77,
+    "waiting_period": "Yes",
+    "high_risk": "Yes"
+  },
+  {
+    "state": "LA",
+    "name": "Louisiana",
+    "abortion_clinics": 3,
+    "crisis_pregnancy_centers": 55,
+    "waiting_period": "Yes",
+    "high_risk": "Yes"
+  },
+  {
+    "state": "ME",
+    "name": "Maine",
+    "abortion_clinics": 19,
+    "crisis_pregnancy_centers": 26,
+    "waiting_period": "No",
+    "high_risk": "Yes"
+  },
+  {
+    "state": "MD",
+    "name": "Maryland",
+    "abortion_clinics": 18,
+    "crisis_pregnancy_centers": 66,
+    "waiting_period": "No",
+    "high_risk": "Yes"
+  },
+  {
+    "state": "MA",
+    "name": "Massachusetts",
+    "abortion_clinics": 9,
+    "crisis_pregnancy_centers": 43,
+    "waiting_period": "No",
+    "high_risk": "No"
+  },
+  {
+    "state": "MI",
+    "name": "Michigan",
+    "abortion_clinics": 24,
+    "crisis_pregnancy_centers": 135,
+    "waiting_period": "No",
+    "high_risk": "Yes"
+  },
+  {
+    "state": "MN",
+    "name": "Minnesota",
+    "abortion_clinics": 5,
+    "crisis_pregnancy_centers": 99,
+    "waiting_period": "No",
+    "high_risk": "No"
+  },
+  {
+    "state": "MS",
+    "name": "Mississippi",
+    "abortion_clinics": 1,
+    "crisis_pregnancy_centers": 46,
+    "waiting_period": "Yes",
+    "high_risk": "Yes"
+  },
+  {
+    "state": "MO",
+    "name": "Missouri",
+    "abortion_clinics": 2,
+    "crisis_pregnancy_centers": 116,
+    "waiting_period": "No",
+    "high_risk": "Yes"
+  },
+  {
+    "state": "MT",
+    "name": "Montana",
+    "abortion_clinics": 5,
+    "crisis_pregnancy_centers": 23,
+    "waiting_period": "No",
+    "high_risk": "No"
+  },
+  {
+    "state": "NE",
+    "name": "Nebraska",
+    "abortion_clinics": 3,
+    "crisis_pregnancy_centers": 31,
+    "waiting_period": "No",
+    "high_risk": "Yes"
+  },
+  {
+    "state": "NV",
+    "name": "Nevada",
+    "abortion_clinics": 7,
+    "crisis_pregnancy_centers": 12,
+    "waiting_period": "No",
+    "high_risk": "No"
+  },
+  {
+    "state": "NH",
+    "name": "New Hampshire",
+    "abortion_clinics": 5,
+    "crisis_pregnancy_centers": 24,
+    "waiting_period": "No",
+    "high_risk": "Yes"
+  },
+  {
+    "state": "NJ",
+    "name": "New Jersey",
+    "abortion_clinics": 31,
+    "crisis_pregnancy_centers": 59,
+    "waiting_period": "No",
+    "high_risk": "No"
+  },
+  {
+    "state": "NM",
+    "name": "New Mexico",
+    "abortion_clinics": 5,
+    "crisis_pregnancy_centers": 39,
+    "waiting_period": "No",
+    "high_risk": "No"
+  },
+  {
+    "state": "NY",
+    "name": "New York",
+    "abortion_clinics": 64,
+    "crisis_pregnancy_centers": 197,
+    "waiting_period": "No",
+    "high_risk": "No"
+  },
+  {
+    "state": "NC",
+    "name": "North Carolina",
+    "abortion_clinics": 13,
+    "crisis_pregnancy_centers": 136,
+    "waiting_period": "No",
+    "high_risk": "Yes"
+  },
+  {
+    "state": "ND",
+    "name": "North Dakota",
+    "abortion_clinics": 1,
+    "crisis_pregnancy_centers": 12,
+    "waiting_period": "No",
+    "high_risk": "Yes"
+  },
+  {
+    "state": "OH",
+    "name": "Ohio",
+    "abortion_clinics": 11,
+    "crisis_pregnancy_centers": 203,
+    "waiting_period": "No",
+    "high_risk": "Yes"
+  },
+  {
+    "state": "OK",
+    "name": "Oklahoma",
+    "abortion_clinics": 3,
+    "crisis_pregnancy_centers": 66,
+    "waiting_period": "No",
+    "high_risk": "Yes"
+  },
+  {
+    "state": "OR",
+    "name": "Oregon",
+    "abortion_clinics": 10,
+    "crisis_pregnancy_centers": 60,
+    "waiting_period": "No",
+    "high_risk": "No"
+  },
+  {
+    "state": "PA",
+    "name": "Pennsylvania",
+    "abortion_clinics": 15,
+    "crisis_pregnancy_centers": 225,
+    "waiting_period": "No",
+    "high_risk": "Yes"
+  },
+  {
+    "state": "RI",
+    "name": "RhodeIsland",
+    "abortion_clinics": 2,
+    "crisis_pregnancy_centers": 8,
+    "waiting_period": "No",
+    "high_risk": "Yes"
+  },
+  {
+    "state": "SC",
+    "name": "SouthCarolina",
+    "abortion_clinics": 2,
+    "crisis_pregnancy_centers": 46,
+    "waiting_period": "No",
+    "high_risk": "Yes"
+  },
+  {
+    "state": "SD",
+    "name": "SouthDakota",
+    "abortion_clinics": 1,
+    "crisis_pregnancy_centers": 19,
+    "waiting_period": "No",
+    "high_risk": "Yes"
+  },
+  {
+    "state": "TN",
+    "name": "Tennessee",
+    "abortion_clinics": 8,
+    "crisis_pregnancy_centers": 84,
+    "waiting_period": "No",
+    "high_risk": "Yes"
+  },
+  {
+    "state": "TX",
+    "name": "Texas",
+    "abortion_clinics": 19,
+    "crisis_pregnancy_centers": 322,
+    "waiting_period": "Yes",
+    "high_risk": "Yes"
+  },
+  {
+    "state": "UT",
+    "name": "Utah",
+    "abortion_clinics": 2,
+    "crisis_pregnancy_centers": 10,
+    "waiting_period": "No",
+    "high_risk": "Yes"
+  },
+  {
+    "state": "VT",
+    "name": "Vermont",
+    "abortion_clinics": 6,
+    "crisis_pregnancy_centers": 12,
+    "waiting_period": "No",
+    "high_risk": "No"
+  },
+  {
+    "state": "VA",
+    "name": "Virginia",
+    "abortion_clinics": 12,
+    "crisis_pregnancy_centers": 82,
+    "waiting_period": "Yes",
+    "high_risk": "No"
+  },
+  {
+    "state": "WA",
+    "name": "Washington",
+    "abortion_clinics": 33,
+    "crisis_pregnancy_centers": 64,
+    "waiting_period": "No",
+    "high_risk": "No"
+  },
+  {
+    "state": "WV",
+    "name": "WestVirginia",
+    "abortion_clinics": 1,
+    "crisis_pregnancy_centers": 41,
+    "waiting_period": "No",
+    "high_risk": "Yes"
+  },
+  {
+    "state": "WI",
+    "name": "Wisconsin",
+    "abortion_clinics": 3,
+    "crisis_pregnancy_centers": 103,
+    "waiting_period": "Yes",
+    "high_risk": "Yes"
+  },
+  {
+    "state": "WY",
+    "name": "Wyoming",
+    "abortion_clinics": 1,
+    "crisis_pregnancy_centers": 14,
+    "waiting_period": "No",
+    "high_risk": "Yes"
+  }
+]

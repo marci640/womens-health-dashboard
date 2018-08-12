@@ -6,6 +6,7 @@ export class Card extends Component {
       <div className={"card" + (this.props.plain ? " card-plain" : "")}>
         <div className={"header" + (this.props.hCenter ? " text-center" : "")}>
           <h4 className="title">{this.props.title}</h4>
+          <h2 className="stateTitle">{this.props.stateTitle}</h2>
           <p className="category">{this.props.category}</p>
         </div>
         <div

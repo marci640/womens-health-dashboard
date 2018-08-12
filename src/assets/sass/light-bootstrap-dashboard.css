@@ -319,6 +319,19 @@ body > .navbar-collapse .logo {
     font-weight: 400;
     line-height: 30px; }
 
+  path {
+    fill: #fff;
+    stroke: #D84765;
+    stroke-width: 2;
+    pointer-events: all;
+    defaultFill: 20px, bold;
+  }
+
+  path:hover {
+    fill: #D84765;
+    cursor: pointer;
+  }
+
 .sidebar .logo-tim,
 body > .navbar-collapse .logo-tim {
   border-radius: 50%;
@@ -1824,7 +1837,7 @@ body > .navbar-collapse[data-color="purple"]:after {
     position: absolute; }
   .card .ct-chart {
     margin: 30px 0 30px;
-    height: 245px; }
+    height: 400px; }
   .card .table tbody td:first-child,
   .card .table thead th:first-child {
     padding-left: 15px; }

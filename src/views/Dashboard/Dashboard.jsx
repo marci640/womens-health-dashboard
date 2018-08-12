@@ -3,6 +3,8 @@ import ChartistGraph from "react-chartist";
 import { Grid, Row, Col } from "react-bootstrap";
 import gyn from "assets/img/gyn.svg"
 import bible from "assets/img/bible.svg"
+import calendar from "assets/img/calendar.svg"
+import female from "assets/img/female.svg"
 import { Card } from "components/Card/Card.jsx";
 import { ComparisonMap } from "components/ComparisonMap/ComparisonMap.jsx";
 import { StatsCard } from "components/StatsCard/StatsCard.jsx";
@@ -20,8 +22,15 @@ import {
   legendBar
 } from "variables/Variables.jsx";
 
+const clinicData = require('variables/data.json');
+
 class Dashboard extends Component {
   state = {
+    abortionClinics: "",
+    crisisPregnancyCenters: "",
+    waitingPeriod: "",
+    risk: "",
+    currentState: "The United States",
     states: []
   };
 
@@ -36,13 +45,16 @@ class Dashboard extends Component {
     return legend;
   }
 
+  updateDashboardState = (abortionClinics, crisisPregnancyCenters, currentState, waitingPeriod, risk) => {
+    this.setState(() => ({ abortionClinics: abortionClinics }));
+    this.setState(() => ({ crisisPregnancyCenters: crisisPregnancyCenters }));
+    this.setState(() => ({ currentState: currentState }));
+    this.setState(() => ({ waitingPeriod: waitingPeriod }));
+    this.setState(() => ({ risk: risk }));
+  }
+
   componentDidMount() {
-    fetch('https://raw.githubusercontent.com/marci640/womens-health-api/master/db.json').then(results => {
-        return results.json();
-    }).then(data => {
-      let states = data;
-      this.setState({states: states});
-    })
+    this.setState(() => ({ states: clinicData }));
   }
 
   render() {
@@ -53,61 +65,51 @@ class Dashboard extends Component {
             <Col lg={3} sm={6}>
               <StatsCard
                 bigIcon={<img width="50" src={gyn} />}
-                statsText="Count"
-                statsValue="105GB"
+                statsText="Count:"
+                statsValue={this.state.abortionClinics}
                 statsIconText="Abortion Clinics"
               />
             </Col>
             <Col lg={3} sm={6}>
               <StatsCard
                 bigIcon={<img width="50" src={bible} />}
-                statsText="Count"
-                statsValue="$1,345"
-                // statsIcon={<i className="fa fa-calendar-o" />}
+                statsText="Count:"
+                statsValue={this.state.crisisPregnancyCenters}
                 statsIconText="Crisis Pregnancy Centers"
               />
             </Col>
             <Col lg={3} sm={6}>
               <StatsCard
-                bigIcon={<i className="pe-7s-graph1 text-danger" />}
-                statsText="Errors"
-                statsValue="23"
-                statsIcon={<i className="fa fa-clock-o" />}
-                statsIconText="In the last hour"
+                bigIcon={<img width="50" src={calendar} />}
+                statsText="Response:"
+                statsValue={this.state.waitingPeriod}
+                statsIconText="Mandatory waiting period?"
               />
             </Col>
             <Col lg={3} sm={6}>
               <StatsCard
-                bigIcon={<i className="fa fa-twitter text-info" />}
-                statsText="Followers"
-                statsValue="+45"
-                statsIcon={<i className="fa fa-refresh" />}
-                statsIconText="Updated now"
+                bigIcon={<img width="50" src={female} />}
+                statsText="Response:"
+                statsValue={this.state.risk}
+                statsIconText="High risk of abortion ban?"
               />
             </Col>
           </Row>
           <Row>
             <Col md={12}>
-              <Card
-                statsIcon="fa fa-history"
+              <Card class="mapCard"
                 id="chartHours"
-                title="Users Behavior"
-                category="24 Hours performance"
-                stats="Updated 3 minutes ago"
+                stateTitle={this.state.currentState}
+                stats="Select your state to see how it compares in abortion rights and access"
                 content={
-                  <div className="ct-chart">
-                    <ComparisonMap states={this.state.states}/>
-                    <ChartistGraph
-                      data={dataSales}
-                      type="Line"
-                      options={optionsSales}
-                      responsiveOptions={responsiveSales}
+                  <div >
+                    <ComparisonMap 
+                      states={this.state.states}
+                      updateDashboardState={this.updateDashboardState}
                     />
                   </div>
                 }
-                legend={
-                  <div className="legend">{this.createLegend(legendSales)}</div>
-                }
+                
               />
             </Col>
             <Col md={4}>
